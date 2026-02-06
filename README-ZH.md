@@ -32,7 +32,7 @@ brew install uv
 ### 2. 克隆项目 & 安装依赖
 
 ```bash
-git clone <>
+git clone https://github.com/byteoxo/apple-i18n.git
 cd apple-i8n
 uv sync
 ```
