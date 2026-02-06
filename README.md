@@ -35,7 +35,7 @@ brew install uv
 ### 2. Clone & Install Dependencies
 
 ```bash
-git clone <>
+git clone https://github.com/byteoxo/apple-i18n.git
 cd apple-i8n
 uv sync
 ```
