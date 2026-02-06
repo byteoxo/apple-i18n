@@ -1,0 +1,15 @@
+[project]
+name = "apple-i8n"
+version = "0.1.0"
+description = "Translate Apple .xcstrings localization files using LLM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx[socks,socksio]>=0.28.1",
+    "openai",
+    "pyyaml",
+    "rich",
+]
+
+[project.scripts]
+apple-i8n = "main:main"

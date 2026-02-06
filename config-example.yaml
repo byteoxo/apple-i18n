@@ -1,0 +1,17 @@
+llm:
+  # OpenAI-compatible API base URL
+  base_url: "https://api.openai.com/v1"
+  # API key (can also be set via LLM_API_KEY environment variable)
+  api_key: "sk-..."
+  # Model name to use for translation
+  model: "gpt-4o-mini"
+
+translation:
+  # Base language to translate FROM (must exist in the xcstrings file)
+  source_language: "en"
+  # Path to the .xcstrings file
+  xcstrings_path: "./Localizable.example.xcstrings"
+  # Number of string keys to send per LLM request
+  batch_size: 20
+  # Maximum number of concurrent API calls
+  max_concurrency: 5
