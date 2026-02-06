@@ -6,6 +6,10 @@ If you're building for Apple platforms — iOS, macOS, iPadOS, watchOS, tvOS, vi
 
 That's what this tool does. Pick a base language (say `en`, `zh-Hans`, whatever you've already got in your file), and it uses an LLM to translate everything into all the other languages. Results get written straight back into your `.xcstrings` file. Just copy it back to Xcode and you're done.
 
+## Screenshot
+
+![Log Output](assets/images/log.png)
+
 ## What It Does
 
 - Reads your `.xcstrings` file and figures out which languages are in there and what's still missing
